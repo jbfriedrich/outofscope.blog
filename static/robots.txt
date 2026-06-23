@@ -1,0 +1,163 @@
+#####
+# General robots.txt for all my personal sites
+###
+# Changelog:
+# * 2025-06-27: Adding additioanl bot settings
+# * 2024-03-29: Adding additional bot settings
+# * 2023-08-07: Include settings for Google and ChatGPT bots
+###
+# Sources:
+# - https://neil-clarke.com/block-the-bots-that-feed-ai-models-by-scraping-your-website/
+# - https://github.com/ai-robots-txt/ai.robots.txt
+#####
+
+User-Agent: *
+Disallow: 
+
+# Allow general Google Search but fuck them special interest bots
+#-----------------------------------------------------------------
+User-Agent: Googlebot-Image
+User-Agent: Googlebot-Video
+User-Agent: Googlebot-News
+User-Agent: Storebot-Google
+User-Agent: AdsBot-Google-Mobile
+User-Agent: AdsBot-Google
+User-Agent: Mediapartners-Google
+User-agent: Google-Extended
+User-agent: Google-CloudVertexBot
+User-agent: GoogleOther
+User-agent: GoogleOther-Image
+User-agent: GoogleOther-Video
+Disallow: /
+
+# Fuck Claude AI
+#---------------
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+User-agent: Claude-Web
+User-agent: ClaudeBot
+User-agent: anthropic-ai
+Disallow: /
+
+# Fuck Apple AI
+#--------------
+User-agent: Applebot
+User-agent: Applebot-Extended
+Disallow: /
+
+# Fuck Meta
+#----------
+User-agent: FacebookBot
+User-agent: Meta-ExternalAgent
+User-agent: Meta-ExternalFetcher
+User-agent: facebookexternalhit
+User-agent: meta-externalagent
+User-agent: meta-externalfetcher
+Disallow: /
+
+# Fuck that ChatGPT bot
+#----------------------
+User-agent: GPTBot
+User-agent: ChatGPT-User
+Disallow: /
+
+# Block leaky Cloudflare endpoints
+# --------------------------------
+Disallow: /cdn-cgi/bm/cv/
+Disallow: /cdn-cgi/challenge-platform/
+Disallow: /cdn-cgi/images/trace/
+Disallow: /cdn-cgi/rum
+Disallow: /cdn-cgi/scripts/
+Disallow: /cdn-cgi/styles/
+Disallow: /cdn-fpw/sxg/
+
+# Fuck them other noisy bots
+# --------------------------
+User-agent: AI2Bot
+User-agent: AhrefsBot
+User-agent: Ai2Bot-Dolma
+User-agent: Amazonbot
+User-agent: Andibot
+User-agent: AwarioRssBot
+User-agent: AwarioSmartBot
+User-agent: BLEXBot
+User-agent: Barkrowler
+User-agent: Brightbot 1.0
+User-agent: Bytespider
+User-agent: CCBot
+User-agent: CazoodleBot
+User-agent: Cotoyogi
+User-agent: Crawlspace
+User-agent: DataForSeoBot
+User-agent: Diffbot
+User-agent: DuckAssistBot
+User-agent: EchoboxBot
+User-agent: Factset_spyderbot
+User-agent: FirecrawlAgent
+User-agent: FriendlyCrawler
+User-agent: Gigabot
+User-agent: Go-http-client
+User-agent: ICC-Crawler
+User-agent: ISSCyberRiskCrawler
+User-agent: ImagesiftBot
+User-agent: ImagesiftBot 
+User-agent: Kangaroo Bot
+User-agent: MJ12bot
+User-agent: Meta-ExternalAgent
+User-agent: Meta-ExternalFetcher
+User-agent: MistralAI-User/1.0
+User-agent: MyCentralAIScraperBot
+User-agent: Node/simplecrawler
+User-agent: NovaAct
+User-agent: Nuclei
+User-agent: OAI-SearchBot
+User-agent: Omgili
+User-agent: Omgilibot
+User-agent: Operator
+User-agent: PanguBot
+User-agent: Panscient
+User-agent: Perplexity-User
+User-agent: PerplexityBot
+User-agent: PetalBot
+User-agent: PhindBot
+User-agent: Poseidon Research Crawler
+User-agent: QualifiedBot
+User-agent: QuillBot
+User-agent: Riddler
+User-agent: SBIntuitionsBot
+User-agent: Scrapy
+User-agent: SemrushBot
+User-agent: SemrushBot-BA
+User-agent: SemrushBot-CT
+User-agent: SemrushBot-OCOB
+User-agent: SemrushBot-SI
+User-agent: SemrushBot-SWA
+User-agent: Sidetrade indexer bot
+User-agent: TikTokSpider
+User-agent: Timpibot
+User-agent: VelenPublicWebCrawler
+User-agent: Webzio-Extended
+User-agent: WikiDo
+User-agent: YandexAdditional
+User-agent: YandexAdditionalBot
+User-agent: YouBot
+User-agent: Zoominfobot
+User-agent: aiHitBot
+User-agent: bedrockbot
+User-agent: cohere-ai
+User-agent: cohere-training-data-crawler
+User-agent: dotbot/1.0
+User-agent: iaskspider/2.0
+User-agent: img2dataset
+User-agent: magpie-crawler
+User-agent: omgili
+User-agent: omgilibot
+User-agent: panscient.com
+User-agent: peer39_crawler
+User-agent: peer39_crawler/1.0
+User-agent: quillbot.com
+User-agent: wpbot
+
+# Sitemap settings
+#------------------
+Sitemap: https://outofscope.blog/sitemap.xml
