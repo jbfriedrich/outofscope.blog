@@ -1,6 +1,7 @@
 baseURL: "https://outofscope.blog"
 languageCode: "en-us"
-title: "Everything beyond the brief"
+title: "Out of Scope"
+theme: "wilde"
 timeZone: Europe/Berlin
 summaryLength: 50
 paginate: 12
@@ -47,7 +48,52 @@ markup:
 #  extensions:
 #    - "hardLineBreak"
 
+menu:
+  main:
+    - {identifier: home,    name: "Home",    url: "/",         weight: 1}
+    - {identifier: posts,   name: "Posts",   url: "/posts/",   weight: 2}
+    - {identifier: notes,   name: "Notes",   url: "/notes/",   weight: 3}
+    - {identifier: links,   name: "Links",   url: "/links/",   weight: 4}
+    - {identifier: photos,  name: "Photos",  url: "/photos/",  weight: 5}
+    - {identifier: archive, name: "Archive", url: "/archive/", weight: 6}
+  footer:
+    - {identifier: feed, name: "Feed", url: "/index.xml", weight: 1}
+    - {identifier: tags, name: "Tags", url: "/tags/", weight: 2}
+    - {identifier: website, name: "friedrich.uk", url: "https://friedrich.uk", weight: 3}
+    - {identifier: mastodon, name: "Mastodon", url: "https://click.ba.it/@jason", weight: 4}
+
+mediaTypes:
+  application/atom+xml:
+    suffixes:
+      - 'xml'
+
+outputFormats:
+  atom:
+    baseName: 'index'
+    isPlainText: false
+    mediaType: 'application/atom+xml'
+    rel: 'alternate'
+
+outputs:
+  home:
+    - HTML
+    - Atom
+    - JSON
+  section:
+    - HTML
+    - Atom
+
+disableKinds:
+  - 'RSS'
+
 params:
+  # --- wilde theme: hybrid preset, cool palette ---
+  preset: hybrid
+  hue: 200          # cyan (primary)
+  altHue: 265       # indigo (secondary)
+  tagline: "Everything beyond the brief"
+  description: "A tech blog by Jason Friedrich — posts, notes, links and the occasional photo."
+  feedSections: [posts, links, notes]
   author:
     given_name: "Jason"
     family_name: "Friedrich"
