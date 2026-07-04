@@ -18,7 +18,7 @@ permalinks:
 taxonomies:
   tag: tags
   type: type
-  language: lang
+  language: languages
 
 frontmatter:
   date:
@@ -59,7 +59,7 @@ menu:
   footer:
     - {identifier: feed, name: "Feed", url: "/index.xml", weight: 1}
     - {identifier: tags, name: "Tags", url: "/tags/", weight: 2}
-    - {identifier: website, name: "friedrich.uk", url: "https://friedrich.uk", weight: 3}
+    - {identifier: website, name: "Website", url: "https://friedrich.uk", weight: 3}
     - {identifier: mastodon, name: "Mastodon", url: "https://click.ba.it/@jason", weight: 4}
 
 mediaTypes:
