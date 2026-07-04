@@ -1,3 +1,3 @@
 [submodule "themes/wilde"]
 	path = themes/wilde
-	url = git@github.com:jbfriedrich/wilde.git
+	url = https://github.com/jbfriedrich/wilde.git
