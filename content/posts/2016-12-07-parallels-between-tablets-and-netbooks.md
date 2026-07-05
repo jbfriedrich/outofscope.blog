@@ -4,7 +4,6 @@ date: 2016-12-07T05:51:08
 feature_image: https://images.unsplash.com/photo-1509339338943-fc6da78cdd4b?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=e0287e9589bc89282e840ee7f421d940
 tags:
   - hardware
-  - tech
 languages:
   - en
 ---

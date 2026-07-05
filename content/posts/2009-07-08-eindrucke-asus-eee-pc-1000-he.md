@@ -4,7 +4,6 @@ date: 2009-07-08T19:48:07
 feature_image: https://images.unsplash.com/photo-1519056231101-0f83a012aed3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=f7d029c51a1d8605bd3c1742194f2c56
 summary: "Da mein alter Laptop langsam in die Jahre kommt, und sich die Ausfallerscheinen häuften, wollte ich mir bis zum Machbook einen kleinen handlichen Mini-Computer anschaffen."
 tags:
-  - tech
   - notebooks
 languages:
   - de

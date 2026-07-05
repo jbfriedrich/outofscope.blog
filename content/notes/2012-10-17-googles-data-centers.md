@@ -4,7 +4,6 @@ date: 2012-10-17T02:59:29
 tags:
   - google
   - datacenter
-  - tech
 languages:
   - en
 ---

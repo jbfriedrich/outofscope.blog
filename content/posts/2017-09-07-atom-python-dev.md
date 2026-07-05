@@ -4,7 +4,6 @@ date: 2017-09-07T05:55:59
 feature_image: https://images.unsplash.com/photo-1517134191118-9d595e4c8c2b?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=c52b0953fc1a1d157d35a4eba1fd7b59
 tags:
   - development
-  - tech
 languages:
   - en
 ---

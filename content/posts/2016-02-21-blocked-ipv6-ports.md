@@ -5,7 +5,6 @@ feature_image: https://images.unsplash.com/photo-1517373116369-9bdb8cdc9f62?ixli
 tags:
   - ipv6
   - networking
-  - tech
 languages:
   - en
 ---

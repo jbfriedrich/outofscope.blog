@@ -6,7 +6,6 @@ summary: 'In the past it was easy to share interesting, or funny finds on the In
 tags:
   - automation
   - socialmedia
-  - tech
 languages:
   - en
 ---

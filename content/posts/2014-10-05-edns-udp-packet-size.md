@@ -5,7 +5,6 @@ feature_image: https://images.unsplash.com/photo-1532339848923-c4beffa7abcb?ixli
 tags:
   - linux
   - networking
-  - tech
 languages:
   - en
 ---

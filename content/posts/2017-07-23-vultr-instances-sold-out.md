@@ -5,7 +5,6 @@ feature_image: https://images.unsplash.com/photo-1443159805125-50ae78d2d00d?ixli
 summary: 'While taking a closer look at VULTR I became very interested in their "$2.50 plan", as it is half as much as you would have to pay for the same performance at similar providers.'
 tags:
   - hosting
-  - tech
 languages:
   - en
 ---

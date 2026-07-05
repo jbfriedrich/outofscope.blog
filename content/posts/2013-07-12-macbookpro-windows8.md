@@ -5,7 +5,6 @@ feature_image: https://images.unsplash.com/photo-1530133532239-eda6f53fcf0f?ixli
 tags:
   - apple
   - macos
-  - tech
   - windows
 languages:
   - en

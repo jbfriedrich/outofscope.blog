@@ -4,7 +4,6 @@ date: 2013-12-01T23:31:21
 draft: true
 tags:
   - linux
-  - tech
 ---
 
 The amount of servers and services I administrate and manage is rising slowly but steadily. I started with one little VPS and now I have 8 Virtual Machines — the three test environments not included. Clearly the need for a centralized authentication platform was given.

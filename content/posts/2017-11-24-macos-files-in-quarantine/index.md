@@ -5,7 +5,6 @@ feature_image: feature.jpg
 summary: 'I am not sure when it exactly started. But some time after I upgraded to High Sierra, VLC started to display a “Verifying the file” prompt with a progress bar whenever I opened a MKV or MP4 file.'
 tags:
   - apple
-  - tech
 languages:
   - en
 ---

@@ -6,7 +6,6 @@ summary: "Since I started using the Cisco AnyConnect VPN Client, I had DNS issue
 tags:
   - apple
   - networking
-  - tech
 languages:
   - en
 ---

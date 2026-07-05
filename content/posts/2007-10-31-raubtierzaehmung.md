@@ -6,7 +6,6 @@ summary: "Letzten Samstag war es endlich so weit, ich habe mir Mac OS X Leopard 
 tags:
   - apple
   - macos
-  - tech
 languages:
   - de
 ---

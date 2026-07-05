@@ -4,7 +4,6 @@ date: 2017-09-11T02:03:33
 tags:
   - automation
   - operations
-  - tech
 languages:
   - en
 ---

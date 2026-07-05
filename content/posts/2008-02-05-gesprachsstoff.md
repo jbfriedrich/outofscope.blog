@@ -3,7 +3,6 @@ title: Gesprächsstoff
 date: 2008-02-05T16:59:31
 feature_image: https://images.unsplash.com/photo-1534844404100-27259dbdc22c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=374c8a40d825660460d9a193fca581a0
 tags:
-  - tech
   - messenging
 languages:
   - de

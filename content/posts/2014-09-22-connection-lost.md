@@ -4,7 +4,6 @@ date: 2014-09-22T02:31:23
 feature_image: https://images.unsplash.com/photo-1516044734145-07ca8eef8731?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=54c1a1cf746bafde44894e637dca25b2
 tags:
   - networking
-  - tech
 languages:
   - en
 ---

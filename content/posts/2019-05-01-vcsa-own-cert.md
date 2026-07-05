@@ -5,7 +5,6 @@ feature_image: https://images.unsplash.com/photo-1553991562-9f24b119ff51?ixlib=r
 tags:
   - vmware
   - virtualization
-  - tech
 languages:
   - en
 ---

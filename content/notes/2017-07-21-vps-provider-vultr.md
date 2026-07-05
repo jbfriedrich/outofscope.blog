@@ -4,7 +4,6 @@ date: 2017-07-21T09:36:16
 summary: "For the reasons of diversity and high availability I was looking for an alternative to DigitalOcean."
 tags:
   - hosting
-  - tech
 languages:
   - en
 ---

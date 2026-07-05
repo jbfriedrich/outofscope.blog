@@ -2,7 +2,6 @@
 title: Windows Server 2016 VPS at VultR
 date: 2017-07-21T12:01:24
 tags:
-  - tech
   - windows
   - hosting
 languages:
