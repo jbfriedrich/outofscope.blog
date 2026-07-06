@@ -3,6 +3,7 @@ title: Atlassian study about remote work
 date: 2024-01-18T03:31:41
 link: https://www.atlassian.com/blog/distributed-work/distributed-work-report
 domains: [atlassian.com]
+url: /links/atlassian.com/20240118033141/
 tags: [atlassian, remotework, workculture]
 languages: [en]
 ---

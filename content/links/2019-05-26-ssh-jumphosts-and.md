@@ -3,6 +3,7 @@ title: SSH ProxyJump and ProxyCommand
 date: 2019-05-26T19:48:38
 link: https://www.tecmint.com/access-linux-server-using-a-jump-host/
 domains: [tecmint.com]
+url: /links/tecmint.com/20190526194838/
 tags: [linux]
 languages: [en]
 ---

@@ -3,6 +3,7 @@ title: GitHub Actions
 date: 2019-08-08T22:56:15
 link: https://www.youtube.com/watch?v=E1OunoCyuhY
 domains: [youtube.com]
+url: /links/youtube.com/20190808225615/
 tags: [development, github]
 languages: [en]
 ---

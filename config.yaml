@@ -17,10 +17,12 @@ permalinks:
   notes:  /notes/:2006:01:02:150405
   links:  /:sections/:2006:01:02:150405
   photos: /photos/:2006/:01/:slug
+  domains: /links/:slug
 taxonomies:
   tag: tags
   type: type
   language: languages
+  domain: domains
 
 frontmatter:
   date:

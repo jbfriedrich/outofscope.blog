@@ -1,3 +1,0 @@
----
-title: fishshell.com
----

@@ -3,6 +3,7 @@ title: Atom 1.18 with integrated GitHub support
 date: 2017-06-16T04:57:35
 link: https://github.atom.io/
 domains: [github.atom.io]
+url: /links/github.atom.io/20170616045735/
 tags: [development]
 languages: [en]
 ---

@@ -3,6 +3,7 @@ title: Fresh shellfish
 date: 2024-01-28T03:01:09
 link: https://fishshell.com/docs/current/relnotes.html#fish-3-7-0-released-january-1-2024
 domains: [fishshell.com]
+url: /links/fishshell.com/20240128030109/
 tags: [linux, software, shell]
 languages: [en]
 ---

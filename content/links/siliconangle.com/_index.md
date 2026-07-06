@@ -1,3 +1,0 @@
----
-title: siliconangle.com
----
