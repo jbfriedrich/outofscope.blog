@@ -54,14 +54,13 @@ markup:
 
 menu:
   main:
-    - {identifier: home,    name: "Home",    url: "/",         weight: 1}
+    - {identifier: about,   name: "About",   url: "/about/",   weight: 1}
     - {identifier: posts,   name: "Posts",   url: "/posts/",   weight: 2}
     - {identifier: notes,   name: "Notes",   url: "/notes/",   weight: 3}
     - {identifier: links,   name: "Links",   url: "/links/",   weight: 4}
     - {identifier: photos,  name: "Photos",  url: "/photos/",  weight: 5}
     - {identifier: archive, name: "Archive", url: "/archive/", weight: 6}
   footer:
-    - {identifier: about, name: "About", url: "/about/", weight: 1}
     - {identifier: rss, name: "RSS", url: "/feeds/", weight: 2}
     - {identifier: tags, name: "Tags", url: "/tags/", weight: 3}
     - {identifier: website, name: "Website", url: "https://friedrich.uk", weight: 4}
