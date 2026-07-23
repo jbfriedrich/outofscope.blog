@@ -91,10 +91,12 @@ disableKinds:
   - 'RSS'
 
 params:
-  # --- wilde theme: hybrid preset, cool palette ---
+  # --- wilde theme: hybrid preset, amber/teal palette ---
+  # OKLCH hue ANGLES (not HSL degrees). Amber leads (warm, terminal), teal
+  # supports. Injected as a :root override after the stylesheet so it wins.
   preset: hybrid
-  hue: 200          # cyan (primary)
-  altHue: 265       # indigo (secondary)
+  hue: 65           # amber (primary)
+  altHue: 195       # teal (secondary)
   tagline: "Everything beyond the brief"
   description: "A tech blog by Jason Friedrich — posts, notes, links and the occasional photo."
   feedSections: [posts, links, notes]
